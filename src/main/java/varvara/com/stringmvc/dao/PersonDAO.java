@@ -5,8 +5,9 @@ import org.springframework.jdbc.core.BeanPropertyRowMapper;
 import org.springframework.jdbc.core.JdbcTemplate;
 import org.springframework.stereotype.Component;
 import varvara.com.stringmvc.models.Person;
-import java.util.List;
 
+import java.util.List;
+import java.util.Optional;
 
 
 @Component
@@ -24,13 +25,13 @@ public class PersonDAO {
 
     }
 
-    public Person show(int id) {
+    public Optional<Person> show(int id) {
         return jdbcTemplate.query("SELECT * FROM Person WHERE id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Person.class))
-                .stream().findAny().orElse(null);
+                .stream().findAny();
     }
 
     public void save(Person person) {
-        jdbcTemplate.update("INSERT INTO Person VALUES(1, ?, ?)", person.getName(), person.getYearOfBirth());
+        jdbcTemplate.update("INSERT INTO Person(name, yearOfBirth) VALUES(?, ?)", person.getName(), person.getYearOfBirth());
     }
 
     public void update(int id, Person updatedPerson) {

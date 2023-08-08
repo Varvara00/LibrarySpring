@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="2c66ee4b-154a-49a7-8ab3-abf664790f22" name="hi" url="https://github.com/Varvara00/start_project.git">
+        <fileTransfer accessType="SFTP" sshConfigId="17a811cf-c58d-410f-84b4-655fcdc2ec54" sshConfig="hi">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

@@ -9,24 +9,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="start_project">
-      <changelist_data name="https://github.com/Varvara00/start_project.git" email="" />
-      <change afterPath="$PROJECT_DIR$/.idea/sshConfigs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/webServers.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/BooksController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/new.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-2] [LIBRARY-3] project and infra setup, created PostgreSQL">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/webContexts.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/postgres.edMnLQ/schema/information_schema.FNRwLQ.zip" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -47,10 +45,12 @@
   <component name="Git.Settings">
     <option name="PREVIOUS_COMMIT_AUTHORS">
       <list>
+        <option value="varvara.galy171203@gmail.com" />
         <option value="https://github.com/Varvara00/start_project.git" />
       </list>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" root0="SKIP_HIGHLIGHTING" />
@@ -94,7 +94,7 @@
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "org.jetbrains.plugins.github.ui.GithubSettingsConfigurable",
+    "settings.editor.selected.configurable": "preferences.keymap",
     "spring.configuration.checksum": "262fd345916d6767ed8bb776eed77688",
     "vue.rearranger.settings.migration": "true"
   },
@@ -317,7 +317,8 @@
       <workItem from="1691346594503" duration="366000" />
       <workItem from="1691393766580" duration="11889000" />
       <workItem from="1691484537777" duration="12513000" />
-      <workItem from="1691503726477" duration="9793000" />
+      <workItem from="1691503726477" duration="10746000" />
+      <workItem from="1691593412849" duration="7180000" />
     </task>
     <task id="LOCAL-00001" summary="start_project">
       <option name="closed" value="true" />
@@ -327,7 +328,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691489682120</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="[LIBRARY-2] [LIBRARY-3] project and infra setup, created PostgreSQL">
+      <option name="closed" value="true" />
+      <created>1691530550944</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1691530550944</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -358,7 +367,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="start_project" />
-    <option name="LAST_COMMIT_MESSAGE" value="start_project" />
+    <MESSAGE value="[LIBRARY-2] [LIBRARY-3] project and infra setup, created PostgreSQL" />
+    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-2] [LIBRARY-3] project and infra setup, created PostgreSQL" />
+    <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

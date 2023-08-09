@@ -27,8 +27,8 @@ public class PersonValidator implements Validator {
     public void validate(Object o, Errors errors) {
         Person person = (Person) o;
 
-        if (personDAO.show(person.getId()).isPresent()) {
-            errors.rejectValue("id", "", "");
+        if (personDAO.show(person.getPerson_id()).isPresent()) {
+            errors.rejectValue("person_id", "", "");
         }
 
     }

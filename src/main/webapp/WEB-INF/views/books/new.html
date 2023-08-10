@@ -23,6 +23,13 @@
     <input id="director" th:field="*{director}" type="text"/>
     <div style="color:red" th:errors="*{director}" th:if="${#fields.hasErrors('director')}">Director Error</div>
     <br/>
+
+    <label for="person_id">Enter person id : </label>
+    <input id="person_id" th:field="*{person_id}" type="text"/>
+    <div style="color:red" th:errors="*{person_id}" th:if="${#fields.hasErrors('person_id')}">Director Error</div>
+    <br/>
+
+
     <!--  <label for="email">Enter email: </label>-->
     <!--  <input type="text" th:field="*{email}" id="email"/>-->
     <!--  <div style="color:red" th:if="${#fields.hasErrors('email')}" th:errors="*{email}">Email Error</div>-->

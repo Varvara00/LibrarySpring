@@ -7,7 +7,7 @@ import org.springframework.stereotype.Component;
 import varvara.com.stringmvc.models.Person;
 
 import java.util.List;
-//import java.util.Optional;
+
 
 
 @Component
@@ -26,7 +26,9 @@ public class PersonDAO {
     }
 
     public Person show(int id) {
-        return jdbcTemplate.query("SELECT * FROM Person WHERE id=?", new Object[]{id}, new BeanPropertyRowMapper<>(Person.class))
+        return jdbcTemplate.query("SELECT * FROM Person WHERE id=?",
+                        new Object[]{id},
+                        new BeanPropertyRowMapper<>(Person.class))
                 .stream().findAny().orElse(null);
     }
 
@@ -40,6 +42,7 @@ public class PersonDAO {
     }
 
     public void delete(int id) {
-        jdbcTemplate.update("DELETE FROM person WHERE id=?");
+        jdbcTemplate.update("DELETE FROM Person WHERE id=?", id);
     }
+
 }

@@ -1,6 +1,13 @@
-package varvara.com.stringmvc.util;
-
-
+//package varvara.com.stringmvc.util;
+//
+//
+//import org.springframework.beans.factory.annotation.Autowired;
+//import org.springframework.stereotype.Component;
+//import org.springframework.validation.Errors;
+//import org.springframework.validation.Validator;
+//import varvara.com.stringmvc.dao.PersonDAO;
+//import varvara.com.stringmvc.models.Person;
+//
 //@Component
 //public class PersonValidator implements Validator {
 //    private final PersonDAO personDAO;

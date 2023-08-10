@@ -21,7 +21,6 @@ public class PeopleController {
 
     @Autowired
     public PeopleController(PersonDAO personDAO) {
-        //PersonValidator personValidator
         this.personDAO = personDAO;
 //        this.personValidator = personValidator;
 
@@ -37,8 +36,6 @@ public class PeopleController {
     @GetMapping("/{id}")
     public String show(@PathVariable("id") int id, Model model) {
         model.addAttribute("person", personDAO.show(id));
-
-
         return "people/show";
     }
 

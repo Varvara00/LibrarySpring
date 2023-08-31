@@ -9,25 +9,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/BooksController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
-    </list>
+    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -367,7 +349,7 @@
       <workItem from="1692031638221" duration="3573000" />
       <workItem from="1692361850160" duration="607000" />
       <workItem from="1693228828960" duration="12450000" />
-      <workItem from="1693416926505" duration="2967000" />
+      <workItem from="1693416926505" duration="3297000" />
     </task>
     <task id="LOCAL-00001" summary="start_project">
       <option name="closed" value="true" />
@@ -425,7 +407,15 @@
       <option name="project" value="LOCAL" />
       <updated>1691689817305</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields">
+      <option name="closed" value="true" />
+      <created>1693481043555</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1693481043555</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -462,7 +452,8 @@
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,canview all people and books" />
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,can view all people and books" />
     <MESSAGE value="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books" />
-    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books" />
+    <MESSAGE value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />

@@ -9,14 +9,23 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,can view all people and books">
+    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books">
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/information_schema.FNRwLQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/pg_catalog.0S1ZNQ.zip" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/e7c4b7e3-8ac9-48a4-8eae-23237302df61/storage_v2/_src_/database/project1.OBh5xA/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/BooksController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/BooksController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/BookDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/dao/PersonDAO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Book.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Book.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/models/Person.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/util/PersonValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/edit.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/new.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/people/show.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,12 +60,12 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
     <option name="SIGN_OFF_COMMIT" value="true" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Varvara00"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Varvara00&quot;
   }
-}]]></component>
+}</component>
   <component name="GithubPullRequestsUISettings">
     <option name="selectedUrlAndAccountId">
       <UrlAndAccount>
@@ -91,48 +100,55 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "git-widget-placeholder": "main",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.keymap",
-    "spring.configuration.checksum": "262fd345916d6767ed8bb776eed77688",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;database.data.extractors.current.export.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;database.data.extractors.current.id&quot;: &quot;Comma-separated (CSV)_id&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.keymap&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;262fd345916d6767ed8bb776eed77688&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "postgresql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;postgresql&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="varvara.com.stringmvc.config" />
     </key>
   </component>
   <component name="RunManager" selected="Tomcat Server.Tomcat 9.0.78">
+    <configuration name="book.sql" type="DatabaseScript" editBeforeRun="true" temporary="true">
+      <script-file value="e7c4b7e3-8ac9-48a4-8eae-23237302df61/database/project1/schema/public/table/book.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration name="generated-requests | #1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" requestIdentifier="#1" runType="Run single request">
       <method v="2" />
     </configuration>
     <configuration name="generated-requests | #2" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="2" requestIdentifier="#2" runType="Run single request">
       <method v="2" />
     </configuration>
-    <configuration name="generated-requests | #3" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" nameIsGenerated="true" path="$APPLICATION_CONFIG_DIR$/scratches/generated-requests.http" index="3" requestIdentifier="#3" runType="Run single request">
+    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8087/Project1_war_exploded/WEB-INF/views/people/index.html">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8087/Project1_war_exploded/WEB-INF/views/people/index.html">
+    <configuration name="show.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:8087/Project1_war_exploded/WEB-INF/views/people/show.html">
       <method v="2" />
     </configuration>
     <configuration name="Tomcat 11.0.0" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.0" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
@@ -309,19 +325,21 @@
       </method>
     </configuration>
     <list>
+      <item itemvalue="Database Script.book.sql" />
       <item itemvalue="HTTP Request.generated-requests | #2" />
       <item itemvalue="HTTP Request.generated-requests | #1" />
-      <item itemvalue="HTTP Request.generated-requests | #3" />
+      <item itemvalue="JavaScript Debug.show.html" />
       <item itemvalue="JavaScript Debug.index.html" />
       <item itemvalue="Tomcat Server.Tomcat 9.0.78" />
       <item itemvalue="Tomcat Server.Tomcat 11.0.0" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.show.html" />
+        <item itemvalue="Database Script.book.sql" />
         <item itemvalue="JavaScript Debug.index.html" />
         <item itemvalue="HTTP Request.generated-requests | #1" />
         <item itemvalue="HTTP Request.generated-requests | #2" />
-        <item itemvalue="HTTP Request.generated-requests | #3" />
       </list>
     </recent_temporary>
   </component>
@@ -343,7 +361,13 @@
       <workItem from="1691503726477" duration="10746000" />
       <workItem from="1691593412849" duration="7180000" />
       <workItem from="1691651902664" duration="598000" />
-      <workItem from="1691665506378" duration="18198000" />
+      <workItem from="1691665506378" duration="18852000" />
+      <workItem from="1691768896312" duration="595000" />
+      <workItem from="1691857589739" duration="9902000" />
+      <workItem from="1692031638221" duration="3573000" />
+      <workItem from="1692361850160" duration="607000" />
+      <workItem from="1693228828960" duration="12450000" />
+      <workItem from="1693416926505" duration="2967000" />
     </task>
     <task id="LOCAL-00001" summary="start_project">
       <option name="closed" value="true" />
@@ -385,7 +409,23 @@
       <option name="project" value="LOCAL" />
       <updated>1691681637820</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books">
+      <option name="closed" value="true" />
+      <created>1691689805365</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1691689805365</updated>
+    </task>
+    <task id="LOCAL-00007" summary="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books">
+      <option name="closed" value="true" />
+      <created>1691689817305</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1691689817305</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -421,7 +461,8 @@
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,canview all people and books&#10;&#10;Signed-off-by: Varvara00 &lt;varvara.galy171203@gmail.com&gt;" />
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,canview all people and books" />
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,can view all people and books" />
-    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,can view all people and books" />
+    <MESSAGE value="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books" />
+    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
@@ -431,7 +472,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java</url>
-          <line>24</line>
+          <line>23</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>

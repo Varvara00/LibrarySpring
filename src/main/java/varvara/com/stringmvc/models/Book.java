@@ -19,9 +19,6 @@ public class Book {
     @Min(value = 1900, message = "Year of production should be greater than 1900")
     private int yearOfProduction;
 
-//    @NotEmpty(message = "Email should not be empty")
-//    @Email(message = "Email should be valid")
-//    private String email;
 
     public Book() {
 
@@ -32,7 +29,8 @@ public class Book {
         this.name = name;
         this.director = director;
         this.yearOfProduction = yearOfProduction;
-//        this.email = email;
+
+
     }
 
     public int getId() {
@@ -68,13 +66,6 @@ public class Book {
         this.yearOfProduction = yearOfProduction;
     }
 
-//    public String getEmail() {
-//        return email;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
 }
 
 

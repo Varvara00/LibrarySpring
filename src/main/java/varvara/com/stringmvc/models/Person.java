@@ -14,18 +14,14 @@ public class Person {
     @Min(value = 1940, message = "Year of birth should be greater than 1940")
     private int year_of_birth;
 
-//    @NotEmpty(message = "Email should not be empty")
-//    @Email(message = "Email should be valid")
-//    private String email;
-
     public Person() {
-
     }
 
     public Person(int id, String name, int year_of_birth) {
         this.id = id;
         this.name = name;
         this.year_of_birth = year_of_birth;
+
 //        this.email = email;
     }
 
@@ -52,12 +48,4 @@ public class Person {
     public void setYear_of_birth(int year_of_birth) {
         this.year_of_birth = year_of_birth;
     }
-
-//    public String getEmail() {
-//        return email;
-//    }
-//
-//    public void setEmail(String email) {
-//        this.email = email;
-//    }
 }

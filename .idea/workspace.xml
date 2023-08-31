@@ -9,7 +9,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
+    <list default="true" id="88aafe8f-91b0-4faf-b2ea-5dc6cbed66e6" name="Changes" comment="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/books/show.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -349,7 +352,7 @@
       <workItem from="1692031638221" duration="3573000" />
       <workItem from="1692361850160" duration="607000" />
       <workItem from="1693228828960" duration="12450000" />
-      <workItem from="1693416926505" duration="3297000" />
+      <workItem from="1693416926505" duration="8238000" />
     </task>
     <task id="LOCAL-00001" summary="start_project">
       <option name="closed" value="true" />
@@ -415,7 +418,15 @@
       <option name="project" value="LOCAL" />
       <updated>1693481043555</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields">
+      <option name="closed" value="true" />
+      <created>1693481141864</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1693481141864</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -453,21 +464,12 @@
     <MESSAGE value="[LIBRARY-6] [LIBRARY-8] Fixed 500 error,can view all people and books" />
     <MESSAGE value="[LIBRARY-4][LIBRARY-5] Possibility to add, edit and remove people &amp; books" />
     <MESSAGE value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
-    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page, &#10;Add validation for all the fields" />
+    <MESSAGE value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page,&#10;Add validation for all the fields&#10;&#10;Signed-off-by: Varvara00 &lt;varvara.galy171203@gmail.com&gt;" />
+    <MESSAGE value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page.&#10;Add validation for all the fields" />
+    <option name="LAST_COMMIT_MESSAGE" value="[LIBRARY-10][LIBRARY-14] Show books and other information on person details page.&#10;Add validation for all the fields" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/varvara/com/stringmvc/controllers/PeopleController.java</url>
-          <line>23</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

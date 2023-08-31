@@ -5,10 +5,35 @@
     <title>Show</title>
 </head>
 <body>
-<p th:text="${book.getName() + ', ' + book.getYearOfProduction()}">VALUE</p>
-<!--<p th:text="${'Email: ' + person.getEmail()}">VALUE</p>-->
-<p th:text="${book.getId()}">VALUE</p>
-<a th:href="@{/books/{id}/edit(id=${book.getId()})}">Edit</a>
+
+
+<p th:text="${book.getName() + ', ' + book.getDirector() + ', ' + book.getYearOfProduction()}">VALUE</p>
+<div th:if="${owner}">
+    <span> The book is now: </span> <span th:text="${owner.getName()}">Person Name </span>
+    <form th:action="@{/books/{id}/release(id=${book.getId()})}" th:method="PATCH">
+        <input type="submit" value="Release the book"/>
+    </form>
+</div>
+<div th:if="${people}">
+    <span>This book is free. Who to assign it to??</span>
+    <form th:action="@{/books/{id}/assign(id=${book.getId()})}" th:method="PATCH">
+        <label for="person">Choose a person </label>
+        <select id="person" th:field="*{id}" th:object="${person}">
+            <option th:each="person : ${people}" th:text="${person.getName()}" th:value="${person.getId()}">
+            </option>
+        </select>
+        <input type="submit" value="Assign a book">
+    </form>
+</div>
+
+<hr/>
+
+<!--<p th:text="${book.getId()}">VALUE</p>-->
+<!--<a th:href="@{/books/{id}/edit(id=${book.getId()})}">Edit</a>-->
+
+<form th:action="@{/books/{id}edit(id=${book.getId()})}" th:method="GET">
+    <input type="submit" value="Edit"/>
+</form>
 <form th:action="@{/books/{id}(id=${book.getId()})}" th:method="DELETE">
     <input type="submit" value="Delete"/>
 </form>
